@@ -105,3 +105,11 @@ PyNaCl
  for cryptography backend
 Questionary
  for interactive CLI menus
+
+---
+
+## TODO:
+
+ - Key selector to encript with different keys
+ - Key remover
+ - Key creator
