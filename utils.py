@@ -32,7 +32,7 @@ def isSensitive(path): # Funtion to chech if a path contains sensitive dirs
                 sys.exit(1)
             break # This is serious, you will only be asked once.
 
-def generateKey(): # Generates the key that is stored at ~/.config/cipher/key/'ID'.key
+def generateKey(): # Generates the key that is stored at ~/.config/cipher/key/cph.key
     key = nacl.utils.random(SecretBox.KEY_SIZE)
     with open(KEY_DIR, "wb") as keyFile:
         keyFile.write(key)

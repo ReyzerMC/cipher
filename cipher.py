@@ -2,7 +2,7 @@
 import os
 import questionary
 from nacl.secret import SecretBox
-from config import VERSION, KEY_DIR, SENSITIVE_DIRS, dirs
+from config import VERSION, KEY_DIR, dirs
 from utils import printTree, antiSily, isSensitive, generateKey
 
 def startEnc(): # Encription startup
@@ -36,7 +36,7 @@ def startDec(): # Decription startup (Im not documenting this cause is the same 
 # Function that checks -> if folders, files, etc... | Security checks antiSilly(), isSensitive() | And info printTree()
 
 def checker(path, EnOrDe):
-    if os.path.exists(KEY_DIR): # Checks if exists a key file in teh actual sistem ~/.config/cipher/key/'id'.key
+    if os.path.exists(KEY_DIR): # Checks if exists a key file in teh actual sistem ~/.config/cipher/key/cph.key
         with open(KEY_DIR, "rb") as f:
             key = f.read()
     else:
