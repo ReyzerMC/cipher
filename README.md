@@ -21,8 +21,8 @@ It allows you to securely encrypt files with a secret key, while providing safet
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/cipher-encryptor.git
-cd cipher-encryptor
+git clone https://github.com/ReyzerNC/cipher.git
+cd cipher
 ```
 ---
 
