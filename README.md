@@ -108,8 +108,6 @@ Questionary
 
 ---
 
-## TODO:
+## TODO
 
- - Key selector to encript with different keys
- - Key remover
- - Key creator
+ - Add some decoration to the CLI
