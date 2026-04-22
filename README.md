@@ -34,8 +34,8 @@ pip install -r requirements.txt
 
 **Requirements**:
 - Python3+
-- [PyNaCl](https://pypi.org/project/questionary/)
-- [Questionary](https://pypi.org/project/PyNaCl/)
+- [PyNaCl](https://pypi.org/project/PyNaCl/)
+- [Questionary](https://pypi.org/project/questionary/)
 
 ---
 
